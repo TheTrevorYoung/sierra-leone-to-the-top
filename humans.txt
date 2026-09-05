@@ -1,0 +1,3 @@
+Sierra Leone To The Top
+Independent · Constructive · Nonpartisan
+Built as a lightweight static site for GitHub Pages.

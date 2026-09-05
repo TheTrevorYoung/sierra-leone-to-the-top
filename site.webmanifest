@@ -1,0 +1,21 @@
+{
+  "name": "Sierra Leone To The Top",
+  "short_name": "SL To The Top",
+  "description": "People, ideas, opportunities and action moving Sierra Leone forward.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#0b1f33",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

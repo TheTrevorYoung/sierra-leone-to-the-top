@@ -1,0 +1,119 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Sierra Leone To The Top",
+  "home_page_url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/",
+  "feed_url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/feed.json",
+  "description": "Showcasing and connecting the people, businesses, places, culture, opportunities and ideas moving Sierra Leone forward.",
+  "items": [
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-kelvin-doe-maker-mentor.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-kelvin-doe-maker-mentor.html",
+      "title": "Kelvin Doe: from maker to mentor",
+      "summary": "A source-based People & Stories profile tracing Kelvin Doe from teenage inventor to 2026 robotics mentor.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "People"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-how-we-move-forward.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-how-we-move-forward.html",
+      "title": "How We Move Forward: a five-part test for solutions",
+      "summary": "A practical framework for moving public discussion from complaint to evidence, realistic constraints and measurable action.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Ideas & Solutions"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-bunce-gullah-homecoming.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-bunce-gullah-homecoming.html",
+      "title": "Across the Atlantic: Bunce Island and the meaning of return",
+      "summary": "Bunce Island, Gullah Geechee heritage and documented homecoming visits connecting Sierra Leone with descendants across the Atlantic.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Diaspora"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-krio-language-connection.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-krio-language-connection.html",
+      "title": "Krio: a language of connection",
+      "summary": "How Krio grew from distinctive Freetown history into one of Sierra Leone’s strongest everyday bridges across communities.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-learn2earn-lessons.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-learn2earn-lessons.html",
+      "title": "Training was only the first step",
+      "summary": "Four practical lessons from one reported Learn2Earn employment outcome: evidence, visibility, existing skills and mentorship.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Youth"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-ready-salone-startups.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-ready-salone-startups.html",
+      "title": "Five startups. Five different problems to solve.",
+      "summary": "A source-based Business Radar look at five startups recognized through READY Salone Investor Day 2026.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/guide-six-ways-to-discover.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/guide-six-ways-to-discover.html",
+      "title": "Six ways to discover Sierra Leone",
+      "summary": "A sourced first-look guide spanning Freetown, conservation, heritage, rainforest, islands and the wild interior.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-lumley-beach.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-lumley-beach.html",
+      "title": "Lumley Beach: progress you can see",
+      "summary": "A clean shoreline image from Lumley Beach and the value of documenting visible, practical progress.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Communities"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-2020-conversations.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-2020-conversations.html",
+      "title": "The 2020 Conversations",
+      "summary": "An early Sierra Leone To The Top live-video archive preserved on the existing YouTube channel.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Archive"
+      ]
+    },
+    {
+      "id": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-2017-video-blog.html",
+      "url": "https://thetrevoryoung.github.io/sierra-leone-to-the-top/story-2017-video-blog.html",
+      "title": "The 2017 Video Blog",
+      "summary": "A documented 2017 Sierra Leone To The Top Facebook video-blog archive showing public brand use years before the current relaunch.",
+      "date_published": "2026-09-03T12:00:00Z",
+      "date_modified": "2026-09-03T12:00:00Z",
+      "tags": [
+        "Archive"
+      ]
+    }
+  ]
+}
