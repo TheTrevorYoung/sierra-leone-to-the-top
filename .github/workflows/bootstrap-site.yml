@@ -1,0 +1,27 @@
+name: Bootstrap SLTT site
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.bootstrap/site-v2.3.tar.gz'
+      - '.github/workflows/bootstrap-site.yml'
+permissions:
+  contents: write
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Expand verified public site
+        run: |
+          tar -xzf .bootstrap/site-v2.3.tar.gz -C .
+          rm -rf .bootstrap .github/workflows/bootstrap-site.yml
+      - name: Commit public site
+        run: |
+          git config user.name "SLTT Website Bootstrap"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy SLTT v2.3 visual refinement"
+          git push origin HEAD:main
