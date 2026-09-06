@@ -1,0 +1,133 @@
+/* SLTT immersive interior pages — loaded globally through config.js.
+   Major editorial sections receive image-led heroes and a cleaner, less boxed rhythm.
+   :has() is progressive enhancement; older browsers retain the original page styling. */
+
+@supports selector(body:has(a)) {
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]),
+  body:has(.nav-links a[href="people.html"][aria-current="page"]),
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]),
+  body:has(.nav-links a[href="business.html"][aria-current="page"]),
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]),
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]),
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]),
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) {
+    background:#fff;
+  }
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero {
+    min-height:66vh;
+    padding:190px 0 62px;
+    display:flex;
+    align-items:flex-end;
+    position:relative;
+    isolation:isolate;
+    overflow:hidden;
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+  }
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero:before,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero:before {
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    background:linear-gradient(180deg,rgba(3,14,22,.12) 0%,rgba(3,14,22,.18) 42%,rgba(3,14,22,.82) 100%);
+  }
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1676190761881-863f026c5d8e?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1582617327923-41cf918104bb?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1761666508834-52105afc76ce?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1582617012864-13b7dfac7796?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1761666508259-6eb8b4060a9a?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1653537761927-d30eabb301eb?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1761666508834-52105afc76ce?auto=format&fit=crop&w=2200&q=82')}
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero {background-image:url('https://images.unsplash.com/photo-1654829724687-cf9da4e2c8b0?auto=format&fit=crop&w=2200&q=82')}
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero h1,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero h1 {
+    font-size:clamp(58px,8.5vw,118px);
+    line-height:.9;
+    letter-spacing:-.065em;
+    max-width:1050px;
+    color:#fff;
+    text-shadow:0 2px 24px rgba(0,0,0,.15);
+  }
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero p,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero p {
+    color:#edf4f6;
+    font-size:clamp(18px,2vw,25px);
+    max-width:760px;
+  }
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero .eyebrow,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero .eyebrow {color:#d9f4e4}
+
+  body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero .eyebrow:before,
+  body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero .eyebrow:before {background:#fff}
+
+  /* Give editorial sections more air and reduce the dashboard/card feel. */
+  body:has(.nav-links a[aria-current="page"]) .section {padding-top:100px;padding-bottom:100px}
+  body:has(.nav-links a[aria-current="page"]) .section-header {margin-bottom:50px}
+  body:has(.nav-links a[aria-current="page"]) .section-header h2 {font-size:clamp(42px,5.5vw,72px);line-height:.95}
+  body:has(.nav-links a[aria-current="page"]) .card {border-radius:4px;box-shadow:none;padding:30px;min-height:260px}
+  body:has(.nav-links a[aria-current="page"]) .card:hover {box-shadow:none;transform:none;background:#f4f7f5}
+  body:has(.nav-links a[aria-current="page"]) .feature-panel {border-radius:4px;min-height:500px}
+  body:has(.nav-links a[aria-current="page"]) .wide-photo {border-radius:4px;box-shadow:none}
+  body:has(.nav-links a[aria-current="page"]) .archive-feature {border-radius:4px;box-shadow:none}
+
+  @media(max-width:760px){
+    body:has(.nav-links a[href="discover.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="people.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="culture.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="business.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="communities.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="diaspora.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="youth.html"][aria-current="page"]) .page-hero,
+    body:has(.nav-links a[href="ideas.html"][aria-current="page"]) .page-hero {
+      min-height:58vh;
+      padding:130px 0 44px;
+      background-position:center;
+    }
+    body:has(.nav-links a[aria-current="page"]) .section {padding-top:72px;padding-bottom:72px}
+  }
+}
