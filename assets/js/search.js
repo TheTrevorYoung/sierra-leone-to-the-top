@@ -15,14 +15,26 @@
   function scorePage(page, terms) {
     const title = normalize(page.title + ' ' + page.h1);
     const desc = normalize(page.description);
+    const category = normalize(page.category);
+    const url = normalize(page.url).replace(/[-_.]/g, ' ');
     const body = normalize(page.text);
     let score = 0;
+
     for (const term of terms) {
       if (title.includes(term)) score += 12;
+      if (category.includes(term)) score += 8;
       if (desc.includes(term)) score += 6;
+      if (url.includes(term)) score += 3;
       if (body.includes(term)) score += 2;
     }
-    const all = terms.every(term => title.includes(term) || desc.includes(term) || body.includes(term));
+
+    const all = terms.every(term =>
+      title.includes(term) ||
+      category.includes(term) ||
+      desc.includes(term) ||
+      url.includes(term) ||
+      body.includes(term)
+    );
     if (all) score += 10;
     return score;
   }
@@ -58,7 +70,7 @@
     }
 
     if (!terms.length) {
-      status.textContent = 'Search stories, people, businesses, places, culture, diaspora, youth and ideas.';
+      status.textContent = `Search ${pages.length} indexed stories, guides, archive entries and platform pages.`;
       document.querySelector('[data-search-empty]')?.removeAttribute('hidden');
       return;
     }
