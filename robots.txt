@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thetrevoryoung.github.io/sierra-leone-to-the-top/sitemap.xml
+Sitemap: https://sierraleonetothetop.com/sitemap.xml
